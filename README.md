@@ -1,4 +1,4 @@
-Victor Hugo Cantu Ramires
+![image](https://github.com/user-attachments/assets/640e2fef-f8c4-42f0-835a-45bba624c4ff)Victor Hugo Cantu Ramires
 
 # Esquemático
 
@@ -35,7 +35,12 @@ R1 (220Ω) limita a corrente para o LED D1, que indica que a saída de 5V está 
 
 # Prática
 
+![image](https://github.com/user-attachments/assets/9dac70ed-8499-4922-93b5-ba44495e887f)
+Nesta imagem a leitura de 11V na saída do transformador indica que ele está reduzindo a tensão conforme esperado. Essa tensão será posteriormente retificada e filtrada para fornecer um nível de tensão adequado para o regulador 7805 como mostado na imagem abaixo.
+
 ![image](https://github.com/user-attachments/assets/e43f1fe4-4e44-465c-abfb-5b5d334225dd)
+
+Na imagem acima está sendo medido as saídas do regulador de tensão (U1 - 7805), que tem a saída de 5V.
 
 
 
