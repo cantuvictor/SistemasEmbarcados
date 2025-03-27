@@ -32,3 +32,10 @@ C2 (22nF) e C3 (22nF) ajudam a estabilizar a tensão e eliminar ruídos.
 
 7. Carga: LED e Resistor
 R1 (220Ω) limita a corrente para o LED D1, que indica que a saída de 5V está funcionando corretamente.
+
+# Prática
+
+![image](https://github.com/user-attachments/assets/e43f1fe4-4e44-465c-abfb-5b5d334225dd)
+
+
+
