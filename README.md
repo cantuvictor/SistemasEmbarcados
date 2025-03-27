@@ -15,11 +15,11 @@ O capacitor C1 (1µF) atua como um filtro, suavizando a tensão DC pulsante para
 4. Regulador de Tensão (U1 - 7805)
 O 7805 é um regulador linear de tensão que fornece uma saída de 5V DC estável.
 
-Pinos do 7805:
+ Pinos do 7805:
 
-(VI): Entrada de tensão (proveniente do capacitor C1).
-(GND): Terra.
-(VO): Saída de 5V DC regulados.
+ VI): Entrada de tensão (proveniente do capacitor C1).
+ (GND): Terra.
+ (VO): Saída de 5V DC regulados.
 
 5. Capacitores de Estabilização (C2 e C3)
 C2 (22nF) e C3 (22nF) ajudam a estabilizar a tensão e eliminar ruídos.
