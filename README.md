@@ -2,6 +2,9 @@ Victor Hugo Cantu Ramires
 
 # Esquemático
 
+![Uploading image.png…]()
+
+
 1. Entrada AC e Transformador (TR1)
 O circuito começa com uma fonte de corrente alternada (AC) conectada ao transformador (TR1).
 O transformador reduz a tensão da rede elétrica para um valor adequado para o retificador.
