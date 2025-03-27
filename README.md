@@ -41,7 +41,7 @@ Nesta imagem a leitura de 11V na saída do transformador indica que ele está re
 
 ![image](https://github.com/user-attachments/assets/e43f1fe4-4e44-465c-abfb-5b5d334225dd)
 
-Na imagem acima está sendo medido as saídas do regulador de tensão (U1 - 7805), que tem a saída de 5V.
+Na imagem acima está sendo medido as saídas do regulador de tensão (U1 - 7805), que tem a saída de 5V. Os capacitores (C1, C2 e C3) ajudam a estabilizar e evitar ruídos.
 
 
 
