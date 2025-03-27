@@ -2,7 +2,8 @@ Victor Hugo Cantu Ramires
 
 # Esquemático
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/240c4c9a-daa2-4c80-80cd-259eea4ab55d)
+
 
 
 1. Entrada AC e Transformador (TR1)
@@ -20,8 +21,10 @@ O 7805 é um regulador linear de tensão que fornece uma saída de 5V DC estáve
 
  Pinos do 7805:
 
- VI): Entrada de tensão (proveniente do capacitor C1).
+  VI): Entrada de tensão (proveniente do capacitor C1).
+  
  (GND): Terra.
+ 
  (VO): Saída de 5V DC regulados.
 
 5. Capacitores de Estabilização (C2 e C3)
