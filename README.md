@@ -56,7 +56,8 @@ A leitura de 11V AC confirma que o transformador está reduzindo a tensão confo
 📌 Retificação e Filtragem da Tensão
 
 
-![image](https://github.com/user-attachments/assets/7b872252-9fa3-4d23-9099-69b0e8c5cbd2)
+![image](https://github.com/user-attachments/assets/b0753b24-face-4dd0-a76b-d93b88ee0dc7)
+
 
 
 
