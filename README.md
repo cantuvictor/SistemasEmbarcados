@@ -1,6 +1,7 @@
 
 
 📜 Esquemático
+
 ![image](https://github.com/user-attachments/assets/611c4006-0028-473c-ac47-334ff36793c2)
 
 
@@ -46,14 +47,16 @@ R1 (220Ω) limita a corrente do LED D1, que indica o funcionamento correto do ci
 
 📌 Medição na Saída do Transformador
 
-![image](https://github.com/user-attachments/assets/9abb7734-da5f-4525-9193-2646957a2572)
+![image](https://github.com/user-attachments/assets/bc355abc-d1d4-4fd3-9f4c-abbfc7bd4a4a)
+
 
 
 A leitura de 11V AC confirma que o transformador está reduzindo a tensão conforme esperado.
 
 📌 Retificação e Filtragem da Tensão
 
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/1dfd02e0-064f-4cff-89c3-a515198d7736)
 
 
 Após a retificação e filtragem, a tensão fica pronta para ser estabilizada pelo regulador 7805.
