@@ -1,47 +1,67 @@
-Victor Hugo Cantu Ramires
-
-# Esquemático
-
-![image](https://github.com/user-attachments/assets/240c4c9a-daa2-4c80-80cd-259eea4ab55d)
 
 
-
-1. Entrada AC e Transformador (TR1)
-O circuito começa com uma fonte de corrente alternada (AC) conectada ao transformador (TR1).
-O transformador reduz a tensão da rede elétrica para um valor adequado para o retificador.
-
-2. Ponte Retificadora (BR1)
-O componente BR1 é uma ponte de diodos que converte a tensão AC do transformador para DC pulsante.
-
-3. Capacitor de Filtro (C1)
-O capacitor C1 (1µF) atua como um filtro, suavizando a tensão DC pulsante para reduzir ondulações.
-
-4. Regulador de Tensão (U1 - 7805)
-O 7805 é um regulador linear de tensão que fornece uma saída de 5V DC estável.
-
-   Pinos do 7805:
-
-   VI): Entrada de tensão (proveniente do capacitor C1).
-  
-   (GND): Terra.
- 
-   (VO): Saída de 5V DC regulados.
-
-5. Capacitores de Estabilização (C2 e C3)
-C2 (22nF) e C3 (22nF) ajudam a estabilizar a tensão e eliminar ruídos.
-
-7. Carga: LED e Resistor
-R1 (220Ω) limita a corrente para o LED D1, que indica que a saída de 5V está funcionando corretamente.
-
-# Prática
-
-![image](https://github.com/user-attachments/assets/9dac70ed-8499-4922-93b5-ba44495e887f)
-
-Nesta imagem a leitura de 11V na saída do transformador indica que ele está reduzindo a tensão conforme esperado. Essa tensão será posteriormente retificada e filtrada para fornecer um nível de tensão adequado para o regulador 7805 como mostado na imagem abaixo.
-
-![image](https://github.com/user-attachments/assets/e43f1fe4-4e44-465c-abfb-5b5d334225dd)
-
-Na imagem acima está sendo medido as saídas do regulador de tensão (U1 - 7805), que tem a saída de 5V. Os capacitores (C1, C2 e C3) ajudam a estabilizar e evitar ruídos.
+📜 Esquemático
+![image](https://github.com/user-attachments/assets/611c4006-0028-473c-ac47-334ff36793c2)
 
 
+Este circuito converte uma tensão de corrente alternada (AC) em uma saída regulada de 5V em corrente contínua (DC), utilizando um transformador, uma ponte retificadora e um regulador 7805.
 
+🛠 Componentes e Funcionamento
+
+1️⃣ Entrada AC e Transformador (TR1)
+
+A alimentação inicial vem da rede elétrica (AC).
+
+O transformador (TR1) reduz a tensão para um nível adequado para o retificador.
+
+2️⃣ Ponte Retificadora (BR1)
+
+A ponte de diodos (BR1) converte a tensão AC em uma tensão DC pulsante.
+
+3️⃣ Capacitor de Filtro (C1)
+
+O capacitor C1 (1µF) suaviza a tensão DC, reduzindo ondulações.
+
+4️⃣ Regulador de Tensão (U1 - 7805)
+
+O regulador 7805 estabiliza a tensão de saída em 5V.
+
+Pinos do 7805:
+
+VI: Entrada de tensão (vinda do capacitor C1).
+
+GND: Terra.
+
+VO: Saída regulada de 5V DC.
+
+5️⃣ Capacitores de Estabilização (C2 e C3)
+
+C2 (22nF) e C3 (22nF) eliminam ruídos e garantem maior estabilidade da tensão.
+
+6️⃣ Carga: LED Indicador
+
+R1 (220Ω) limita a corrente do LED D1, que indica o funcionamento correto do circuito.
+
+🔬 Testes Práticos
+
+📌 Medição na Saída do Transformador
+
+![image](https://github.com/user-attachments/assets/9abb7734-da5f-4525-9193-2646957a2572)
+
+
+A leitura de 11V AC confirma que o transformador está reduzindo a tensão conforme esperado.
+
+📌 Retificação e Filtragem da Tensão
+
+![Uploading image.png…]()
+
+
+Após a retificação e filtragem, a tensão fica pronta para ser estabilizada pelo regulador 7805.
+
+O circuito entrega uma saída de 5V DC, ideal para alimentar circuitos eletrônicos.
+
+✅ Conclusão
+
+Este conversor AC-DC com regulador 7805 é uma solução eficiente para obter uma saída estável de 5V DC a partir da rede elétrica. Sua aplicação pode ser utilizada em projetos de eletrônica, microcontroladores e fontes de alimentação para circuitos diversos.
+
+🚀 Projeto testado e funcionando!
