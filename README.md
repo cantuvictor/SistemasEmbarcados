@@ -50,13 +50,17 @@ R1 (220Ω) limita a corrente do LED D1, que indica o funcionamento correto do ci
 
 📌 Medição na Saída do Transformador
 
+Nesta imagem a leitura de 11V na saída do transformador indica que ele está reduzindo a tensão conforme esperado. Essa tensão será posteriormente retificada e filtrada para fornecer um nível de tensão adequado para o regulador 7805 como mostado na imagem abaixo.
+
 ![image](https://github.com/user-attachments/assets/1dfd02e0-064f-4cff-89c3-a515198d7736)
 
-
-
-A leitura de 11V AC confirma que o transformador está reduzindo a tensão conforme esperado.
-
 📌 Retificação e Filtragem da Tensão
+
+O 7805 é um regulador linear de tensão fixa de 5V, ou seja, ele mantém 5V constantes na saída, desde que a entrada tenha um valor adequado.
+
+Ele faz isso internamente usando: ✅ Um circuito de referência de tensão
+✅ Um transistor de passagem que ajusta a corrente
+✅ Um circuito de realimentação que compara a tensão de saída com o valor desejado e faz correções em tempo real.
 
 
 ![image](https://github.com/user-attachments/assets/b0753b24-face-4dd0-a76b-d93b88ee0dc7)
@@ -91,6 +95,9 @@ D1: Diodo, que pode ser um LED indicador ou um diodo de proteção.
 
 # 3D
 ![image](https://github.com/user-attachments/assets/b31df7eb-9b36-4694-8b86-44527a94220b)
+
+![image](https://github.com/user-attachments/assets/ad704027-5d04-4312-9a08-f5fa04da8716)
+
 
 Essa é a renderização 3D da PCB mostrada anteriormente. 
 
