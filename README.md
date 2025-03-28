@@ -61,7 +61,7 @@ A leitura de 11V AC confirma que o transformador está reduzindo a tensão confo
 
 ![image](https://github.com/user-attachments/assets/b0753b24-face-4dd0-a76b-d93b88ee0dc7)
 
-PCB
+# PCB
 
 ![image](https://github.com/user-attachments/assets/e1078dfa-c6a1-4558-b0c1-07442ae583c6)
 
@@ -88,6 +88,12 @@ Componentes Ativos
 U1: Componente de três terminais, possivelmente um regulador de tensão (ex: LM7805) ou um circuito integrado similar.
 
 D1: Diodo, que pode ser um LED indicador ou um diodo de proteção.
+
+# 3D
+![image](https://github.com/user-attachments/assets/b31df7eb-9b36-4694-8b86-44527a94220b)
+
+Essa é a renderização 3D da PCB mostrada anteriormente. 
+
 
 
 
