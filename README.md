@@ -45,6 +45,9 @@ R1 (220Ω) limita a corrente do LED D1, que indica o funcionamento correto do ci
 
 🔬 Testes Práticos
 
+![image](https://github.com/user-attachments/assets/b1164b0c-e1d9-438a-9fc1-7a5ad1baa560)
+
+
 📌 Medição na Saída do Transformador
 
 ![image](https://github.com/user-attachments/assets/1dfd02e0-064f-4cff-89c3-a515198d7736)
@@ -58,15 +61,33 @@ A leitura de 11V AC confirma que o transformador está reduzindo a tensão confo
 
 ![image](https://github.com/user-attachments/assets/b0753b24-face-4dd0-a76b-d93b88ee0dc7)
 
+PCB
+
+![image](https://github.com/user-attachments/assets/e1078dfa-c6a1-4558-b0c1-07442ae583c6)
+
+Visão Geral
+
+Esta PCB foi projetada com um formato compacto de 50 mm x 30 mm, apresentando diversos componentes eletrônicos interligados por trilhas condutoras. O layout prioriza eficiência e organização, garantindo um bom desempenho elétrico e facilidade de montagem.
+
+Especificações Técnicas
+
+Conectores e Terminais
+
+J1 e J2: Conectores de entrada e saída, possivelmente para alimentação ou sinal.
+
+BR1: Ponte retificadora de quatro terminais, responsável pela conversão de corrente alternada (CA) em corrente contínua (CC).
+
+Componentes Passivos
+
+R1: Resistor, possivelmente utilizado para limitar corrente.
+
+C1, C2, C3: Capacitores, sendo C1 um capacitor eletrolítico, indicado pela serigrafia com polaridade marcada. C2 e C3 podem ser cerâmicos ou de filme.
+
+Componentes Ativos
+
+U1: Componente de três terminais, possivelmente um regulador de tensão (ex: LM7805) ou um circuito integrado similar.
+
+D1: Diodo, que pode ser um LED indicador ou um diodo de proteção.
 
 
 
-Após a retificação e filtragem, a tensão fica pronta para ser estabilizada pelo regulador 7805.
-
-O circuito entrega uma saída de 5V DC, ideal para alimentar circuitos eletrônicos.
-
-✅ Conclusão
-
-Este conversor AC-DC com regulador 7805 é uma solução eficiente para obter uma saída estável de 5V DC a partir da rede elétrica. Sua aplicação pode ser utilizada em projetos de eletrônica, microcontroladores e fontes de alimentação para circuitos diversos.
-
-🚀 Projeto testado e funcionando!
